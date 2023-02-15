@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <base href="https://en.wikipedia.org/" target="_blank"> -->
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>TABLE</h1>
+    
+    <table border="1px">
+        <caption>SEMESTER PERCENTAGE</caption>
+        <tr>
+            <th></th>
+            <th>REG NO</th>
+            <th colspan="2">NAME</th>
+            <th>PERCENTAGE</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <td>FIRST NAME</td>
+            <td>LAST NAME</td>
+            <th></th>
+        </tr>
+        <tr>
+            <th rowspan="6">SEM 1</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th rowspan="6">SEM 2</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+
+    </table>
+    <hr>
+
+    <h1>IMAGE MAP</h1>
+    <img src="/assets/IMG1.jpg" alt="MAPING" usemap="#WEB">
+    <map name="WEB">
+        <area shape="rect" coords="191,118,252,212" alt="css" href="/assets/1.jpg" target="_blank">
+        <area shape="rect" coords="262,126,303,211" alt="css" href="/assets/2.png" target="_blank">
+        <area shape="rect" coords="306,144,399,210" alt="css" href="/assets/3.png" target="_blank">
+        <area shape="rect" coords="405,116,432,214" alt="css" href="/assets/4.png" target="_blank">
+
+        <hr>
+
+        <h1>PICTURE TAG</h1>
+        <picture>
+            <source media="(min-width:450px)" srcset="/assets/2.png" height="100px" width="100px">
+            <source media="(min-width:650px)" srcset="/assets/3.png" height="100px" width="100px">
+
+            <img src="/assets/1.jpg" alt="image1" style="width:auto;" height="100px" width="100px">
+        </picture>
+        <hr>
+
+        <h1>BASE TAG</h1>
+
+        <a href="wiki/HTML">HTML WIKIPEDIA</a><br>
+        <hr>
+
+        <h1>AUDIO</h1>
+        <audio controls autoplay muted>
+            <source src="assets/audio.mp3" type="audio/mp3">
+        </audio>
+        <hr>
+
+        <h1>VIDEO</h1>
+        <video width="400px" controls poster="assets/video.mp4">
+            <source src="assets/video.mp4" type="video/mp4">
+        </video>
+        <hr>
+        
+        
+        <h1>iframe - YOUTUBE</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/k6KW9YhJ6FE" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+        <hr>
+
+
+
+</body>
+
+</html>
